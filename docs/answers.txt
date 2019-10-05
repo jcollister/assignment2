@@ -1,0 +1,48 @@
+a). On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+b). 10 commits have been total so far
+	- The command used was: git log
+
+c). Date:   Wed Sep 25 18:13:30 2019 -0400
+	- The command used was: git log --follow .gitignore
+
+d). 1) Branching is helpful so that way you can work on seperate versions of a
+       repository at once.
+    2) It's also helpful so that way you can simultaneously try out different
+       features with a project without affecting the master until your ready 
+       to do so.
+
+e)  Git log is used to list the version history of a given branch while git
+    status list all the files that have to be committed.
+	  
+f)  The command used: git log -- Vehicle.h
+
+g)  The command used: git log --grep="file"
+
+h)  Inheritance is a relationship where there is a base class and derived
+    class. The derived class "is a" instance of the derived class and
+    inherits all the base class features as well as additional features 
+    specific to the inheritance class. Polymorphism is when you have different
+    classes but use the same function with the same name but with different 
+    implementations. Encapsulation is where you hide data members from the
+    public so they can't access it directly.
+
+i) Integration manager workflow is where each developer pushes to their own
+   public repository then a integration manager deals with the conflict 
+   resolution. Dictator and lieutenants workflow is where developers push to
+   assigned lieutenants repository and solves some conflicts. Then the dicator
+   repository merges changes in from the lieutenant repositories and also
+   solves conflicts. Only the dicator can push to centralized repository.
+
+j)  The Dictator and Lieutenants workflow would be more beneficial because 
+    there would be a decentralized command which would lead to smaller 
+    groups which is more easier to manage overall.
+
+5)  The driving simulator prototype is using both polymorphism and 
+    encapsulation. An example of polymorphism is the toString function and 
+    how it differs in each of the classes. An example of encapsulation
+    is the private member data numberOfEngines in the class Jet and how the
+    user can't access this member data directly.
